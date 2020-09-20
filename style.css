@@ -1,1 +1,183 @@
 @import url('reset.css');
+
+html{
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+body{
+  font-size: 2rem;
+  height: 100vh;
+  background-color: #3b3d41;
+  line-height: 2.6rem;
+  color: white;
+
+}
+
+header{
+  width: 100%;
+  background-image: url('code.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f6f4f1;
+  text-align: center;
+}
+
+
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 10rem 0 2rem 0;
+
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 2rem 0 2rem 0;
+  color: #3d3e3d;
+}
+
+
+.titletext{
+  padding: 3rem;
+  width: 50%;
+  display: inline-block;
+}
+
+.undertitletext{
+  padding-top: 3rem;
+  padding-bottom: 15rem;
+}
+
+a{
+  padding: 2rem 4rem;
+  background-color: #3d3e3d;
+  text-decoration: none;
+  border-color: white;
+  border-style: groove;
+  border-width: 1px;
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+ color: white;
+}
+
+/* visited link */
+a:visited {
+ color: white;
+}
+
+/* mouse over link */
+a:hover {
+ color: #3d3e3d;
+ background-color: white;
+}
+
+/* selected link */
+a:active {
+ color: #3d3e3d;
+}
+
+.underheader{
+  background-color: white;
+  color: #3d3e3d;
+  padding: 4rem;
+  text-align: center;
+}
+
+.underheadertext{
+  padding-top: 2rem;
+  columns: 2;
+  width: 80rem;
+  display: inline-block;
+}
+
+main{
+  width: 100%;
+  height: 56rem;
+  background-color: #3d3e3d;
+  text-align: center;
+  display: inline-block;
+}
+
+.inmain{
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+img{
+  display: block;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 5rem;
+  color: #3d3e3d;
+}
+
+.thethings, img{
+  float: left;
+  width: 30rem;
+  background-color: white;
+
+}
+.thethings{
+  margin: 2rem;
+}
+
+.undermain{
+  width: 100%;
+  background-color: white;
+  clear: both;
+  display: inline-block;
+  text-align: center;
+}
+
+.textinmain{
+  padding: 2rem;
+  color: #3d3e3d;
+}
+
+.textundermain{
+  padding: 2rem 0 5rem 0;
+  color: #3d3e3d;
+}
+
+footer h3, footer p, h4{
+  color: white;
+}
+
+footer p{
+  padding: 5rem 4rem 10rem 4rem;
+}
+
+.firstinfooter, .secondinfooter{
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #3d3e3d;
+  text-align: center;
+}
+
+.firstinfooter{
+  background-color: #2690d4;
+}
+
+.lastdiv{
+  background-color: black;
+  clear: both;
+  height: 2rem;
+}
+
+.lastdiv p{
+  text-align: center;
+  width: 50%;
+  float: left;
+  background-color: black;
+  padding: 3rem 0;
+}
